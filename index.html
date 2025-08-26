@@ -3,21 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login - Sport Fryslân CRM</title>
+  <title>Login - Sport Fryslân</title>
   <link href="styles.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-<body class="login-body">
-  <div class="login-container">
+<body class="login-page">
+  <div class="login-container card">
+    <img src="assets/img/logo.png" alt="Logo" class="logo">
     <h1>Sport Fryslân CRM</h1>
-    <form onsubmit="return login(event)">
-      <label for="username">Gebruikersnaam</label>
-      <input type="text" id="username" required>
-      <label for="password">Wachtwoord</label>
-      <input type="password" id="password" required>
-      <button type="submit">Login</button>
+    <form onsubmit="event.preventDefault(); window.location='main.html';">
+      <label>Gebruikersnaam</label>
+      <input type="text" required>
+      <label>Wachtwoord</label>
+      <input type="password" required>
+      <button type="submit">Inloggen</button>
     </form>
   </div>
-  <script src="app.js"></script>
 </body>
 </html>

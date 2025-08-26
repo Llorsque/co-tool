@@ -1,37 +1,11 @@
 <!DOCTYPE html>
 <html lang="nl">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trajecten - Sport Fryslân</title>
-  <link href="styles.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&display=swap" rel="stylesheet">
-</head>
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Trajecten</title><link href="styles.css" rel="stylesheet"></head>
 <body>
-  <header>
-    <h1>Trajecten</h1>
-    <a href="main.html" class="back-link">← Terug naar hoofdmenu</a>
-  </header>
-  <main class="trajecten-container">
-    <form id="trajectForm" class="form-box">
-      <label for="clubSelect">Selecteer club:</label>
-      <select id="clubSelect"></select>
-      <label for="trajectType">Type traject:</label>
-      <input type="text" id="trajectType" placeholder="Bijv. Clubkadercoach">
-      <button type="submit">Toevoegen</button>
-    </form>
-    <h2>Overzicht trajecten</h2>
-    <table id="trajectTable">
-      <thead>
-        <tr>
-          <th>Club</th>
-          <th>Traject</th>
-          <th>Datum toegevoegd</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
+  <header><img src="assets/img/logo.png" class="logo-small"><h1>Trajecten</h1><a href="main.html" class="back-link">← Terug</a></header>
+  <main class="container">
+    <form id="trajectForm" class="card form-box"><label>Club</label><select id="clubSelect"></select><label>Type traject</label><input id="trajectType" placeholder="Bijv. Clubkadercoach"><button type="submit">Toevoegen</button></form>
+    <div class="card"><h2>Overzicht</h2><table id="trajectTable"><thead><tr><th>Club</th><th>Traject</th><th>Datum</th></tr></thead><tbody></tbody></table></div>
   </main>
   <script src="trajecten.js"></script>
-</body>
-</html>
+</body></html>

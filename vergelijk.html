@@ -1,27 +1,11 @@
 <!DOCTYPE html>
 <html lang="nl">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vergelijk clubs - Sport Fryslân</title>
-  <link href="styles.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&display=swap" rel="stylesheet">
-</head>
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Vergelijk</title><link href="styles.css" rel="stylesheet"></head>
 <body>
-  <header>
-    <h1>Vergelijk clubs</h1>
-    <a href="main.html" class="back-link">← Terug naar hoofdmenu</a>
-  </header>
-  <main class="vergelijk-container">
-    <div class="form-box">
-      <label for="club1">Kies club 1:</label>
-      <select id="club1"></select>
-      <label for="club2">Kies club 2:</label>
-      <select id="club2"></select>
-      <button id="compareBtn">Vergelijk</button>
-    </div>
-    <div id="result" class="compare-result"></div>
+  <header><img src="assets/img/logo.png" class="logo-small"><h1>Vergelijk clubs</h1><a href="main.html" class="back-link">← Terug</a></header>
+  <main class="container">
+    <div class="card form-box"><label>Club 1</label><select id="club1"></select><label>Club 2</label><select id="club2"></select><button id="compareBtn">Vergelijk</button></div>
+    <div id="result" class="card"></div>
   </main>
   <script src="vergelijk.js"></script>
-</body>
-</html>
+</body></html>
