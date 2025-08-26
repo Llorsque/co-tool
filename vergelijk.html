@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vergelijk clubs - Sport Fryslân</title>
+  <link href="styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Vergelijk clubs</h1>
+    <a href="main.html" class="back-link">← Terug naar hoofdmenu</a>
+  </header>
+  <main class="vergelijk-container">
+    <div class="form-box">
+      <label for="club1">Kies club 1:</label>
+      <select id="club1"></select>
+      <label for="club2">Kies club 2:</label>
+      <select id="club2"></select>
+      <button id="compareBtn">Vergelijk</button>
+    </div>
+    <div id="result" class="compare-result"></div>
+  </main>
+  <script src="vergelijk.js"></script>
+</body>
+</html>

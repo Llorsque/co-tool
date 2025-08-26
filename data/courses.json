@@ -1,0 +1,110 @@
+[
+  {
+    "title": "Cursus 1",
+    "organizer": "Sport Frysl\u00e2n",
+    "date": "2025-09-01",
+    "time": "10:00",
+    "duration": "2u",
+    "image": "assets/img/course-placeholder.jpg",
+    "description": "Beschrijving van cursus 1."
+  },
+  {
+    "title": "Cursus 2",
+    "organizer": "Sport Frysl\u00e2n",
+    "date": "2025-09-01",
+    "time": "10:00",
+    "duration": "2u",
+    "image": "assets/img/course-placeholder.jpg",
+    "description": "Beschrijving van cursus 2."
+  },
+  {
+    "title": "Cursus 3",
+    "organizer": "Sport Frysl\u00e2n",
+    "date": "2025-09-01",
+    "time": "10:00",
+    "duration": "2u",
+    "image": "assets/img/course-placeholder.jpg",
+    "description": "Beschrijving van cursus 3."
+  },
+  {
+    "title": "Cursus 4",
+    "organizer": "Sport Frysl\u00e2n",
+    "date": "2025-09-01",
+    "time": "10:00",
+    "duration": "2u",
+    "image": "assets/img/course-placeholder.jpg",
+    "description": "Beschrijving van cursus 4."
+  },
+  {
+    "title": "Cursus 5",
+    "organizer": "Sport Frysl\u00e2n",
+    "date": "2025-09-01",
+    "time": "10:00",
+    "duration": "2u",
+    "image": "assets/img/course-placeholder.jpg",
+    "description": "Beschrijving van cursus 5."
+  },
+  {
+    "title": "Cursus 6",
+    "organizer": "Sport Frysl\u00e2n",
+    "date": "2025-09-01",
+    "time": "10:00",
+    "duration": "2u",
+    "image": "assets/img/course-placeholder.jpg",
+    "description": "Beschrijving van cursus 6."
+  },
+  {
+    "title": "Cursus 7",
+    "organizer": "Sport Frysl\u00e2n",
+    "date": "2025-09-01",
+    "time": "10:00",
+    "duration": "2u",
+    "image": "assets/img/course-placeholder.jpg",
+    "description": "Beschrijving van cursus 7."
+  },
+  {
+    "title": "Cursus 8",
+    "organizer": "Sport Frysl\u00e2n",
+    "date": "2025-09-01",
+    "time": "10:00",
+    "duration": "2u",
+    "image": "assets/img/course-placeholder.jpg",
+    "description": "Beschrijving van cursus 8."
+  },
+  {
+    "title": "Cursus 9",
+    "organizer": "Sport Frysl\u00e2n",
+    "date": "2025-09-01",
+    "time": "10:00",
+    "duration": "2u",
+    "image": "assets/img/course-placeholder.jpg",
+    "description": "Beschrijving van cursus 9."
+  },
+  {
+    "title": "Cursus 10",
+    "organizer": "Sport Frysl\u00e2n",
+    "date": "2025-09-01",
+    "time": "10:00",
+    "duration": "2u",
+    "image": "assets/img/course-placeholder.jpg",
+    "description": "Beschrijving van cursus 10."
+  },
+  {
+    "title": "Cursus 11",
+    "organizer": "Sport Frysl\u00e2n",
+    "date": "2025-09-01",
+    "time": "10:00",
+    "duration": "2u",
+    "image": "assets/img/course-placeholder.jpg",
+    "description": "Beschrijving van cursus 11."
+  },
+  {
+    "title": "Cursus 12",
+    "organizer": "Sport Frysl\u00e2n",
+    "date": "2025-09-01",
+    "time": "10:00",
+    "duration": "2u",
+    "image": "assets/img/course-placeholder.jpg",
+    "description": "Beschrijving van cursus 12."
+  }
+]

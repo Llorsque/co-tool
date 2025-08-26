@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Sport Fryslân</title>
+  <link href="styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Dashboard</h1>
+    <a href="main.html" class="back-link">← Terug naar hoofdmenu</a>
+  </header>
+  <main class="dashboard-container">
+    <div class="filters">
+      <select id="gemeenteFilter"><option value="">Alle gemeentes</option></select>
+      <select id="plaatsFilter"><option value="">Alle plaatsen</option></select>
+      <select id="sportFilter"><option value="">Alle sporten</option></select>
+      <select id="aanbodFilter"><option value="">Alle aanbod</option></select>
+      <button id="resetFilters">Wis filters</button>
+      <button id="exportData">Export</button>
+    </div>
+    <div id="activeFilters" class="active-filters"></div>
+    <div id="tilesGrid" class="tiles-grid"></div>
+  </main>
+  <script src="dashboard.js"></script>
+</body>
+</html>

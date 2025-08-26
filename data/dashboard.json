@@ -1,0 +1,50 @@
+[
+  {
+    "gemeente": "Opsterland",
+    "plaats": "Gorredijk",
+    "sport": "Voetbal",
+    "aanbod": "Jeugd"
+  },
+  {
+    "gemeente": "Opsterland",
+    "plaats": "Ureterp",
+    "sport": "Tennis",
+    "aanbod": "Senioren"
+  },
+  {
+    "gemeente": "Leeuwarden",
+    "plaats": "Leeuwarden",
+    "sport": "Basketbal",
+    "aanbod": "Jeugd"
+  },
+  {
+    "gemeente": "Leeuwarden",
+    "plaats": "Leeuwarden",
+    "sport": "Atletiek",
+    "aanbod": "Senioren"
+  },
+  {
+    "gemeente": "Heerenveen",
+    "plaats": "Heerenveen",
+    "sport": "Hockey",
+    "aanbod": "Jeugd"
+  },
+  {
+    "gemeente": "Heerenveen",
+    "plaats": "Heerenveen",
+    "sport": "Voetbal",
+    "aanbod": "Senioren"
+  },
+  {
+    "gemeente": "S\u00fadwest-Frysl\u00e2n",
+    "plaats": "Sneek",
+    "sport": "Volleybal",
+    "aanbod": "Jeugd"
+  },
+  {
+    "gemeente": "S\u00fadwest-Frysl\u00e2n",
+    "plaats": "Sneek",
+    "sport": "Korfbal",
+    "aanbod": "Senioren"
+  }
+]

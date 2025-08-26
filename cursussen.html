@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cursusaanbod - Sport Fryslân</title>
+  <link href="styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Cursusaanbod</h1>
+    <div>
+      <button id="adminToggle">Bewerken</button>
+      <button id="resetCourses">Reset</button>
+      <a href="main.html" class="back-link">← Terug naar hoofdmenu</a>
+    </div>
+  </header>
+  <main>
+    <div id="coursesGrid" class="grid"></div>
+  </main>
+
+  <!-- Detail Modal -->
+  <div id="courseModal" class="modal hidden">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <img id="modalImage" src="" alt="" style="max-width:100%;height:auto;">
+      <p id="modalDescription"></p>
+      <p><strong id="modalDate"></strong> | <span id="modalTime"></span></p>
+      <label for="clubSelect">Boeken namens club:</label>
+      <select id="clubSelect"></select>
+      <button id="bookCourse">Boek cursus</button>
+    </div>
+  </div>
+
+  <!-- Edit Modal -->
+  <div id="editModal" class="modal hidden">
+    <div class="modal-content">
+      <span id="closeEditModal" class="close">&times;</span>
+      <h2>Cursus bewerken</h2>
+      <form id="editForm">
+        <input type="hidden" id="editIndex">
+        <label>Titel</label><input type="text" id="editTitle">
+        <label>Organisator</label><input type="text" id="editOrganizer">
+        <label>Datum</label><input type="date" id="editDate">
+        <label>Tijd</label><input type="time" id="editTime">
+        <label>Duur</label><input type="text" id="editDuration">
+        <label>Afbeelding URL</label><input type="text" id="editImage">
+        <label>Beschrijving</label><textarea id="editDescription"></textarea>
+        <button type="submit">Opslaan</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="cursussen.js"></script>
+</body>
+</html>
